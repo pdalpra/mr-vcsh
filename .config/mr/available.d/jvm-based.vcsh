@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/jvm-based.git]
+checkout = vcsh clone git@github.com:pdalpra/jvm-based-vcsh.git jvm-based
