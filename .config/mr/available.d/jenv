@@ -1,0 +1,2 @@
+[$HOME/.bin/jenv]
+checkout = git clone https://github.com/gcuisinier/jenv.git
