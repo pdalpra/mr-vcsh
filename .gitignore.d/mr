@@ -3,9 +3,15 @@
 !/.config/mr
 !/.config/mr/*
 !/.config/mr/available.d
-!/.config/mr/available.d/*
+!/.config/mr/available.d/bins
+!/.config/mr/available.d/bins/*
+!/.config/mr/available.d/vcsh
+!/.config/mr/available.d/vcsh/*
 !/.config/mr/config.d
-!/.config/mr/config.d/*
+!/.config/mr/config.d/bins
+!/.config/mr/config.d/bins/*
+!/.config/mr/config.d/vcsh
+!/.config/mr/config.d/vcsh/*
 !/.gitignore.d
 !/.gitignore.d/mr
 !/.mrconfig
