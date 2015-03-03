@@ -1,2 +1,2 @@
 [$HOME/.bin/jtools]
-checkout = git clone git@github.com:pdalpra/jtools
+checkout = git clone https://github.com/pdalpra/jtools.git
