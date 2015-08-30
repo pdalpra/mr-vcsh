@@ -1,0 +1,7 @@
+[$HOME/.bin/fzf]
+checkout = 
+		git clone --depth 1 https://github.com/junegunn/fzf.git 
+		yes | $HOME/.bin/fzf/install 1>/dev/null
+update = 
+		git pull
+		yes | $HOME/.bin/fzf/install 1>/dev/null
