@@ -1,0 +1,10 @@
+[$HOME/.bin/diff-so-fancy]
+checkout =
+		git clone https://github.com/so-fancy/diff-so-fancy.git
+		rm $HOME/.bin/diff-so-fancy/update-deps.sh
+		ln -s $HOME/.bin/diff-so-fancy/third_party/diff-highlight/diff-highlight $HOME/.bin/diff-so-fancy/diff-highlight
+
+update =
+		git co update-deps.sh
+		git pull
+		rm $HOME/.bin/diff-so-fancy/update-deps.sh
