@@ -5,6 +5,6 @@ checkout =
 		ln -s $HOME/.bin/diff-so-fancy/third_party/diff-highlight/diff-highlight $HOME/.bin/diff-so-fancy/diff-highlight
 
 update =
-		git co update-deps.sh
+		git checkout update-deps.sh
 		git pull
 		rm $HOME/.bin/diff-so-fancy/update-deps.sh
