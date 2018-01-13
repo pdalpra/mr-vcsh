@@ -1,2 +1,0 @@
-[$HOME/.bin/docker-forward]
-checkout = git clone https://github.com/pdalpra/docker-forward.git
