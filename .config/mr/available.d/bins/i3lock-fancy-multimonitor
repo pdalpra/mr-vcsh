@@ -1,2 +1,2 @@
 [$HOME/.bin/i3lock-fancy-multimonitor]
-checkout = git clone https://github.com/guimeira/i3lock-fancy-multimonitor.git
+checkout = git clone https://github.com/pdalpra/i3lock-fancy-multimonitor.git -b custom
