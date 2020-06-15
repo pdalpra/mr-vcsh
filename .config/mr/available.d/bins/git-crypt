@@ -1,0 +1,7 @@
+[$HOME/.bin/git-crypt]
+checkout = 
+		git clone --depth 1 https://github.com/AGWA/git-crypt.git 
+		cd $HOME/.bin/git-crypt && make install PREFIX=$HOME/.bin/git-crypt
+update = 
+		git pull
+		$HOME/.bin/git-crypt && make install PREFIX=$HOME/.bin/git-crypt
