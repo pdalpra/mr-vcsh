@@ -4,4 +4,4 @@ checkout =
 		cd $HOME/.bin/git-crypt && make install PREFIX=$HOME/.bin/git-crypt
 update = 
 		git pull
-		$HOME/.bin/git-crypt && make install PREFIX=$HOME/.bin/git-crypt
+		cd $HOME/.bin/git-crypt && make install PREFIX=$HOME/.bin/git-crypt
