@@ -1,0 +1,5 @@
+[$HOME/.bin/dev-env]
+checkout =
+		git clone --depth 1 https://github.com/pdalpra/dev-env.git
+update =
+		git pull
