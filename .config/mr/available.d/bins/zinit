@@ -1,0 +1,2 @@
+[$HOME/.bin/zinit]
+checkout = git clone https://github.com/zdharma/zinit.git
